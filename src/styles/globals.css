@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--background: oklch(0.129 0.042 264.695);
+	--foreground: #F1F5F9;
+}
+
+@media (prefers-color-scheme: light){
+	:root {
+		--background: #ffffff;
+		--foreground: #171717;
+	}
+}
+
+body{
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+}
