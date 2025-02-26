@@ -25,7 +25,7 @@ export default async function Home() {
           <main className="container mx-auto p-8">
               <h1 className="text-3xl font-bold mb-6">Welcome to our Gambling Site!</h1>
               <p className="text-gray-600 text-lg leading-loose mb-4">
-                  Earn real money with our trusted games and promotions. Join now and start playing.
+                  Earn <strike>real</strike> money with our trusted games and promotions. Join now and start playing.
               </p>
 
               {/* Features section */}
